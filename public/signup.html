@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Palmetto Cosmetology Institute</title>
+    <!-- Load React and ReactDOM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.1.5/index.min.js"></script>
+    <!-- Booking Form Script -->
+    <script type="text/babel" src="scripts/signup.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><img src="images/PCIlogo.png"></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+            <a href="clientlogin.html"><button class="book-now">Book Now</button></a>
+        </nav>
+        <div id="logotitle">
+            <h2 class="logo">Palmetto Cosmetology Institute</h2>
+        </div>
+    </header>
+    
+    <main>
+        <section class="container-book">
+            <div class="contact-info-book">
+                <h2>Our Info</h2>
+                <p><strong>Email Us</strong><br>cosmo@hgtc.edu</p>
+                <p><strong>Phone Us</strong><br>123-456-7890</p>
+                <p><strong>Get Directions</strong></p>
+                <div class="map-placeholder-book"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.733312927849!2d-79.0055594254036!3d33.794996373254854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89006d2743032d27%3A0xe2530c874dc78b8f!2sHorry%20Georgetown%20Technical%20College%20(Official%20Page)!5e1!3m2!1sen!2sus!4v1742759083511!5m2!1sen!2sus" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <p class="notice-book">
+                    Notice about student/class hours Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+
+            <!-- React Booking Form Will Render Here -->
+            <div id="content"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div id="theleft">
+                <p class="logo">Palmetto Cosmetology Institute</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.youtube.com"><img src="images/youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="footer-links" id="theright">
+                <div class="topic">
+                    <p>About Us</p>
+                    <a href="aboutus.html">About PCI</a>
+                    <a href="https://www.hgtc.edu/about_hgtc/administrativedepartments/humanresources/employment/index.html">Careers</a>
+                    <a href="https://www.hgtcfoundation.org">Donate</a>
+                </div>
+                <div class="topic">
+                    <p>Services</p>
+                    <a href="servicepriceshair.html">Hair Services</a>
+                    <a href="servicepricesnails.html">Nail Care</a>
+                    <a href="servicepricesface.html">Facial Services</a>
+                </div>
+                <div class="topic">
+                    <p>Products</p>
+                    <a href="#">Hair Products</a>
+                    <a href="#">Body Works</a>
+                    <a href="#">Facial Creams and Cleansers</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
